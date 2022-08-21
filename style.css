@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+.structure {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "img-nav sign-up";
+    box-shadow: 15px 15px 15px 0px rgba(44,44,44,0.15);
+    border-radius: 5px;
+    font-family: "Helvetica", sans-serif;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    filter: blur(5px);
+}
+
+.side-img {
+    grid-area: img-nav;
+    height: 400px;
+    background-image: url("./m_Lonely_Man_Under_Night_Sky_-_Starry_Sky_Over_the_Horizon_-_Contemplative.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sign-up {
+    grid-area: sign-up;
+    background: white;  
+}
+
+.side-img .fa-user {
+    font-size: 10em;
+    color: white;
+    border: 5px solid white;
+    border-radius: 100%;
+    padding: 30px 40px;
+}
+
+.form-div {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-div {
+    width: 200px;
+}
+
+.input-div + .input-div {
+    margin-top: 15px;
+}
+
+.input-div input {
+    font-size: 0.95rem;
+    background: #f0f0f0;
+    width: 200px;
+    border: 0.5px solid #c2c2c2c2
+}
+
+.input-div input:focus {
+    background-color: #c2c2c2c2;
+}
+
+#submit {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #596dde, #1c4bc7);
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up-text {
+    text-align: center;
+    background: linear-gradient(135deg, #596dde, #1c4bc7);
+    color: white;
+}
+
+label {
+    display: block;
+    font-size: 1.1rem;
+    color: #1c4bc7;
+}
+
+.icon-and-input {
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+
+.icon-and-input + .icon-and-input {
+    margin-top: 15px;
+}
+
+.input-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: #1c4bc7;
+}
+
+form {
+    padding: 10px;
+    background: #f0f0f0;
+    box-shadow: 15px 15px 15px 0px rgba(44,44,44,0.15);
+}
+
+.btn-div {
+    width: 150px;
+    margin: 30px auto 0px auto;
+}
+
+.login-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.login-icons i {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login-icons i:hover {
+    background-color: #c2c2c2c2;
+    color: blue;
+}
+
+#submit:hover {
+    background: blue;
+}
+
+.welcome-icon {
+    font-size: 100px;
+    color: white;
+    padding: 10px;
+}
+
+#welcome-text {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.welcome-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.welcome-option {
+    border-top: 5px solid white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(44,44,44,0.3);
+}
+
+.welcome-option:hover {
+    background: rgba(44,44,44,0.5);
+    border-top: 5px solid #1c4bc7;
+    color: #1c4bc7;
+}
+
+
+.welcome-options p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#logout {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background: white;
+    color: #1c4bc7;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+#logout:hover {
+    background: #1c4bc7;
+    color: white;
+}
+
+#welcome {
+    width: 80%;
+}
