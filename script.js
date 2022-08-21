@@ -6,7 +6,6 @@ const welcome = document.querySelector("#welcome-text");
 const password = document.querySelector("#password");
 const userIcon = document.querySelector(".signUp-icon");
 const structure = document.querySelector(".structure");
-const backgroundImg = document.querySelector(".side-img")
 
 const identify = () => {
     const name = localStorage.getItem("name");
