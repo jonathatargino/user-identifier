@@ -31,7 +31,7 @@ img {
 .side-img {
     grid-area: img-nav;
     height: 400px;
-    background-image: url("./m_Lonely_Man_Under_Night_Sky_-_Starry_Sky_Over_the_Horizon_-_Contemplative.jpg");
+    background-image: url("img/m_Lonely_Man_Under_Night_Sky_-_Starry_Sky_Over_the_Horizon_-_Contemplative.jpg");
     background-size: cover;
     display: flex;
     align-items: center;
